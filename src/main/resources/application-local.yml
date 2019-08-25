@@ -1,0 +1,11 @@
+spring.data.mongodb.database: tutorial
+spring.data.mongodb.uri: mongodb://localhost:27017
+management:
+  metrics:
+    export:
+      dynatrace:
+        api-token: abcdefjhij1234567890
+        uri: https://kpf02450.live.dynatrace.com/api/v1
+        device-id: lk9mkhmwaXSzkw2Skj6xtqnqeX3NBBOj
+        enabled: true
+        step: 1m
